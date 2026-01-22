@@ -146,7 +146,7 @@ id:
 For example:
 
 ~~~
-https://resolver.example.com/filtering-incidents/{inc}
+https://resolver.example.com/filtering-incidents/{id}
 ~~~
 
 Applications MUST store a local copy of the DNS Filtering Database Registry ({{registry}}) for purposes of template lookup; they MUST NOT query the IANA registry upon each use. The registry is keyed by the Filtering Database Operator ID.
