@@ -10,7 +10,7 @@ Expires: 23 August 2026                                           Google
 
 
                       DNS Censorship Transparency
-             draft-nottingham-public-resolver-errors-latest
+         draft-nottingham-dnsop-censorship-transparency-latest
 
 Abstract
 
