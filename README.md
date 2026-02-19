@@ -1,11 +1,11 @@
-# Extensions for DNS Public Resolvers
+# DNS Censorship Transparency
 
-This is the working area for the individual Internet-Draft, "Extensions for DNS Public Resolvers".
+This is the working area for the individual Internet-Draft, "DNS Censorship Transparency".
 
-* [Editor's Copy](https://mnot.github.io/public-resolver-errors/#go.draft-nottingham-public-resolver-errors.html)
+* [Editor's Copy](https://mnot.github.io/public-resolver-errors/#go.draft-nottingham-dnsop-censorship-transparency.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-nottingham-public-resolver-errors)
-* [Compare Editor's Copy to Individual Draft](https://mnot.github.io/public-resolver-errors/#go.draft-nottingham-public-resolver-errors.diff)
+* [Compare Editor's Copy to Individual Draft](https://mnot.github.io/public-resolver-errors/#go.draft-nottingham-dnsop-censorship-transparency.diff)
 
 
 ## Contributing

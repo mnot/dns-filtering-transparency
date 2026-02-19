@@ -1,7 +1,7 @@
 ---
 title: DNS Censorship Transparency
 abbrev:
-docname: draft-nottingham-public-resolver-errors-latest
+docname: draft-nottingham-dnsop-censorship-transparency-latest
 date:
 category: std
 
