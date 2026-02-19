@@ -201,6 +201,30 @@ The details of DNS responses are not available to all applications, depending on
 
 Because the registry is first-come first-served, applications (such as Web browsers) will need to exercise judgement regarding which database operators' error messages they display to users. This decision might be influenced by the identity of the resolver producing the error message, the database operator, or local configuration.
 
+# Privacy Considerations
+
+An application dereferencing an incident URL may reveal the IP address of the
+user to the filtering database operator, along with the fact that the user
+attempted to resolve a specific domain whose resolution was filtered or
+censored. In some jurisdictions this exposure may carry meaningful risk to the
+user. While allowing users the choice to trust only specific filtering databases
+may mitigate the risk from a filtering database operator, on-path network
+observers may still infer that the user encountered a filtering incident for a
+sensitive domain based on a connection to the filtering database.
+
+To mitigate this risk, applications can choose to route
+incident URL fetches through a privacy-preserving
+mechanism like a proxy. In
+absence of such a proxy, applications MUST NOT automatically fetch incident URLs
+without explicit user action.
+
+Applications and users should be aware that a resolver and filtering database
+operator acting in collusion, or a single party operating in both roles, could
+use unique Filtering Incident IDs to correlate user activity across requests.
+As such, applications should get explicit input from users on which filtering
+database operators they trust, and consequently disregard any entries from
+operators the user does not explicitly trust.
+
 --- back
 
 # Acknowledgements
