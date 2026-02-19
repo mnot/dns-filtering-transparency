@@ -69,9 +69,10 @@ Table of Contents
      4.1.  EXTRA-TEXT JSON Names
      4.2.  The DNS Filtering Database Registry
    5.  Security Considerations
-   6.  References
-     6.1.  Normative References
-     6.2.  Informative References
+   6.  Privacy Considerations
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
    Appendix A.  Acknowledgements
    Authors' Addresses
 
@@ -301,9 +302,35 @@ Table of Contents
    producing the error message, the database operator, or local
    configuration.
 
-6.  References
+6.  Privacy Considerations
 
-6.1.  Normative References
+   An application dereferencing an incident URL may reveal the IP
+   address of the user to the filtering database operator, along with
+   the fact that the user attempted to resolve a specific domain whose
+   resolution was filtered or censored.  In some jurisdictions this
+   exposure may carry meaningful risk to the user.  While allowing users
+   the choice to trust only specific filtering databases may mitigate
+   the risk from a filtering database operator, on-path network
+   observers may still infer that the user encountered a filtering
+   incident for a sensitive domain based on a connection to the
+   filtering database.
+
+   To mitigate this risk, applications can choose to route incident URL
+   fetches through a privacy-preserving mechanism like a proxy.  In
+   absence of such a proxy, applications MUST NOT automatically fetch
+   incident URLs without explicit user action.
+
+   Applications and users should be aware that a resolver and filtering
+   database operator acting in collusion, or a single party operating in
+   both roles, could use unique Filtering Incident IDs to correlate user
+   activity across requests.  As such, applications should get explicit
+   input from users on which filtering database operators they trust,
+   and consequently disregard any entries from operators the user does
+   not explicitly trust.
+
+7.  References
+
+7.1.  Normative References
 
    [I-D.ietf-dnsop-structured-dns-error]
               Wing, D., Reddy.K, T., Cook, N., and M. Boucadair,
@@ -332,7 +359,7 @@ Table of Contents
               DOI 10.17487/RFC8914, October 2020,
               <https://www.rfc-editor.org/rfc/rfc8914>.
 
-6.2.  Informative References
+7.2.  Informative References
 
    [lumen]    "Lumen", n.d., <https://lumendatabase.org/>.
 
