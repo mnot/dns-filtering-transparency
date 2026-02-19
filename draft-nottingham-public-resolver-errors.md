@@ -1,5 +1,5 @@
 ---
-title: DNS Filtering Details for Applications
+title: DNS Censorship Transparency
 abbrev:
 docname: draft-nottingham-public-resolver-errors-latest
 date:
