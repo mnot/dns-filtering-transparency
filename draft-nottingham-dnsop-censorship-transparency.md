@@ -1,5 +1,5 @@
 ---
-title: DNS Censorship Transparency
+title: DNS Filtering Transparency
 abbrev:
 docname: draft-nottingham-dnsop-censorship-transparency-latest
 date:
