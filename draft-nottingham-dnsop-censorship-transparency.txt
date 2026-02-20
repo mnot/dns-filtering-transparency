@@ -5,11 +5,11 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                Cloudflare
 Intended status: Standards Track                               D. Adrian
-Expires: 23 August 2026                                           Google
-                                                        19 February 2026
+Expires: 24 August 2026                                           Google
+                                                        20 February 2026
 
 
-                      DNS Censorship Transparency
+                       DNS Filtering Transparency
          draft-nottingham-dnsop-censorship-transparency-latest
 
 Abstract
@@ -40,7 +40,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 August 2026.
+   This Internet-Draft will expire on 24 August 2026.
 
 Copyright Notice
 
