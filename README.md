@@ -2,16 +2,16 @@
 
 This is the working area for the individual Internet-Draft, "DNS Filtering Transparency".
 
-* [Editor's Copy](https://mnot.github.io/public-resolver-errors/#go.draft-nottingham-dnsop-censorship-transparency.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-nottingham-public-resolver-errors)
-* [Compare Editor's Copy to Individual Draft](https://mnot.github.io/public-resolver-errors/#go.draft-nottingham-dnsop-censorship-transparency.diff)
+* [Editor's Copy](https://mnot.github.io/dns-filtering-transparency/#go.draft-nottingham-dnsop-censorship-transparency.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-nottingham-dns-filtering-transparency)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-nottingham-dns-filtering-transparency)
+* [Compare Editor's Copy to Individual Draft](https://mnot.github.io/dns-filtering-transparency/#go.draft-nottingham-dnsop-censorship-transparency.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/mnot/public-resolver-errors/blob//CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/mnot/dns-filtering-transparency/blob//CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
