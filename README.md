@@ -1,6 +1,6 @@
-# DNS Censorship Transparency
+# DNS Filtering Transparency
 
-This is the working area for the individual Internet-Draft, "DNS Censorship Transparency".
+This is the working area for the individual Internet-Draft, "DNS Filtering Transparency".
 
 * [Editor's Copy](https://mnot.github.io/public-resolver-errors/#go.draft-nottingham-dnsop-censorship-transparency.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-nottingham-public-resolver-errors)
