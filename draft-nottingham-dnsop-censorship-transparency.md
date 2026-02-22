@@ -72,7 +72,7 @@ In typical use, a DNS query that is filtered might contain an Extended DNS Error
 
 This indicates that the filtering incident can be accessed in two different databases, along with the ID associated with each database. In this example, the data is available in the "example" database at identifier "abc123", and in the "lumen" database at identifier "def456".
 
-An application that decides to present the "example" entry to its users would look up "example" in a local copy of the DNS Filtering Incident Database Registry (see {{registry}}) and obtain the corresponding URI template (see {{template}}). For purposes of this example, assume that the registry entry for that value contains:
+An application that decides to present the "example" entry to its users would look up "example" in a local copy of the DNS Filtering Database Registry (see {{registry}}) and obtain the corresponding URI template (see {{template}}). For purposes of this example, assume that the registry entry for that value contains:
 
 ~~~
 https://example.com/filtering-incidents/{id}
@@ -134,7 +134,7 @@ Different applications will implement support for a varying set of database oper
 
 # Database Entry Resolution Templates {#template}
 
-An Database Entry Resolution Template is a URI Template {{!RFC6570}} contained in the DNS Filtering Database Registry ({{registry}}) that, upon expansion, provides a URI that can be dereferenced to obtain details about the filtering incident.
+A Database Entry Resolution Template is a URI Template {{!RFC6570}} contained in the DNS Filtering Database Registry ({{registry}}) that, on expansion, provides a URI that can be dereferenced to obtain details about the filtering incident.
 
 It MUST be a Level 1 or Level 2 template (see {{Section 1.2 of RFC6570}}). It has the following variables from the Filtering Database Entry (see {{entry-id}}) available to it:
 
@@ -163,7 +163,7 @@ JSON Name:
 : "fdbs"
 
 Short Description:
-: a array of filtering database entries
+: an array of filtering database entries
 
 Mandatory:
 : no
