@@ -5,8 +5,8 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                Cloudflare
 Intended status: Standards Track                               D. Adrian
-Expires: 24 August 2026                                           Google
-                                                        20 February 2026
+Expires: 27 August 2026                                           Google
+                                                        23 February 2026
 
 
                        DNS Filtering Transparency
@@ -40,7 +40,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 August 2026.
+   This Internet-Draft will expire on 27 August 2026.
 
 Copyright Notice
 
@@ -144,9 +144,9 @@ Table of Contents
 
    An application that decides to present the "example" entry to its
    users would look up "example" in a local copy of the DNS Filtering
-   Incident Database Registry (see Section 4.2) and obtain the
-   corresponding URI template (see Section 3).  For purposes of this
-   example, assume that the registry entry for that value contains:
+   Database Registry (see Section 4.2) and obtain the corresponding URI
+   template (see Section 3).  For purposes of this example, assume that
+   the registry entry for that value contains:
 
    https://example.com/filtering-incidents/{id}
 
@@ -219,9 +219,9 @@ Table of Contents
 
 3.  Database Entry Resolution Templates
 
-   An Database Entry Resolution Template is a URI Template [RFC6570]
+   A Database Entry Resolution Template is a URI Template [RFC6570]
    contained in the DNS Filtering Database Registry (Section 4.2) that,
-   upon expansion, provides a URI that can be dereferenced to obtain
+   on expansion, provides a URI that can be dereferenced to obtain
    details about the filtering incident.
 
    It MUST be a Level 1 or Level 2 template (see Section 1.2 of
@@ -250,7 +250,7 @@ Table of Contents
    [I-D.ietf-dnsop-structured-dns-error]:
 
    JSON Name:  "fdbs"
-   Short Description:  a array of filtering database entries
+   Short Description:  an array of filtering database entries
    Mandatory:  no
    Specification:  this document
 
