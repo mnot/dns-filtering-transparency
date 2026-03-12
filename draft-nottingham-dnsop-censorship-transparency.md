@@ -162,6 +162,9 @@ IANA will register the following fields in the "EXTRA-TEXT JSON Names" sub-regis
 JSON Name:
 : "fdbs"
 
+Field Meaning:
+: Filtering Databases
+
 Short Description:
 : an array of filtering database entries
 
