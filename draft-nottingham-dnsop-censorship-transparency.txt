@@ -5,8 +5,8 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                Cloudflare
 Intended status: Standards Track                               D. Adrian
-Expires: 27 August 2026                                           Google
-                                                        23 February 2026
+Expires: 13 September 2026                                        Google
+                                                           12 March 2026
 
 
                        DNS Filtering Transparency
@@ -40,7 +40,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 August 2026.
+   This Internet-Draft will expire on 13 September 2026.
 
 Copyright Notice
 
@@ -250,6 +250,7 @@ Table of Contents
    [I-D.ietf-dnsop-structured-dns-error]:
 
    JSON Name:  "fdbs"
+   Field Meaning:  Filtering Databases
    Short Description:  an array of filtering database entries
    Mandatory:  no
    Specification:  this document
@@ -336,9 +337,9 @@ Table of Contents
               Wing, D., Reddy.K, T., Cook, N., and M. Boucadair,
               "Structured Error Data for Filtered DNS", Work in
               Progress, Internet-Draft, draft-ietf-dnsop-structured-dns-
-              error-16, 1 February 2026,
+              error-17, 25 February 2026,
               <https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-
-              structured-dns-error-16>.
+              structured-dns-error-17>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
